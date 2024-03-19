@@ -1,6 +1,6 @@
 .Imagen-Principal{
     height: 70vh;
-    background-image: url('images/fondos/astro.jpeg');
+    background-image: url('../images/fondos/astro.jpeg');
     background-size: cover;
     background-position: 60% center;
     background-repeat: no-repeat;

@@ -1,0 +1,35 @@
+.btn.active{
+    border-color: transparent !important;
+}
+.contenedor-personas{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+#card-container{
+    max-width: 750px;
+    min-width: 750px;
+    height: 100%;
+}
+.row{
+    display: flex !important;
+
+}
+#grupo-botones{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+.btn{
+    min-width: 100px !important;
+}
+@media (width < 769px){
+    #card-container{
+        width: 100%;
+        min-width: auto;
+    }
+    #grupo-botones{
+        flex-direction: column;
+    }
+}

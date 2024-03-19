@@ -1,0 +1,159 @@
+.Imagen-Principal{
+    height: 70vh;
+    background-image: url('/images/fondos/astro.jpeg');
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+
+    display: flex;
+    flex-flow: row  wrap;
+    align-items: center;
+    align-content: center;
+}
+.Imagen-Principal div{
+    text-align: justify;
+}
+.Titulo{
+    color: white;
+    font-size: calc(25px + 1.5vw) !important;
+    margin-bottom: 1rem;
+}
+.info-inicio{
+    max-width: 1000px;
+}
+.subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: calc(7px + 1vw);
+    font-weight: 300;
+}
+/* Parte de informacion html*/
+.Info-astronomia{
+    background-color: white;
+    padding-top: 3rem;
+}
+
+.Titulo-indoA{
+    font-weight: 600;
+    font-size: calc(15px + 1.5vw) !important;
+}
+
+/* Parte final del html*/
+
+.end-page{
+    background-color: #333333;;
+}
+.elements-row{
+    padding:1.5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .6rem;
+}
+.elements-row li {
+    list-style-type: none;
+    color: rgb(102, 99, 99);
+    margin-bottom: .5REM;
+
+}
+.secciones-finales{
+    flex-grow: 1;
+    min-width: 230px;
+    max-height: 360px;
+}
+.elements-row li a {
+    color: #888888 ;
+    text-decoration: none;
+    font-size: 14px;
+}
+.Title-end{
+    color: white !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+.desarrollo{
+    font-weight: 300;
+    text-align: justify;
+}
+.flex-final{  
+    margin-top: 1rem;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.texto-final{
+    text-align: center;
+    min-width: 240px;
+}
+.logo-astro{
+    max-width: 300px;
+}
+.logo-acreditacion{
+    max-width: 300px;
+}
+.contacto{
+    margin: 1px;
+    font-size: 14px;
+    color: white;
+}
+.btn-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem; /* Adjust the font size to make the button smaller */
+    margin-bottom: 0.5rem;
+    width: fit-content;
+}
+hr {
+    background-color: white  !important;
+    border: 0;
+    height: 2px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* Creditos */
+
+.creditos{
+    background-color: #061651;
+}
+.copyright{
+    padding: 1rem 1rem;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+@media (width < 1023px) {
+    .flex-final{
+        flex-direction: column;
+    }
+}
+@media (width < 427px){
+    .Titulo{
+        text-align: center;
+    }
+    .subtitulo{
+        text-align: justify;
+        font-size: calc(5px + 2vw); 
+        margin-top: 0.5rem;
+    }
+    .Titulo-indoA{
+        font-size: calc(20px + 4vw) !important;
+    }
+    .desarrollo{
+        font-size: calc(10px + 1vw);
+    }
+    .logo-astro{
+        width: 100%; /* Make the image width match the container width */
+        height: auto; /* Let the image height adjust proportionally */
+        object-fit: cover;
+    }
+    .logo-acreditacion{
+        width: 100%; /* Make the image width match the container width */
+        height: auto; /* Let the image height adjust proportionally */
+        object-fit: cover;
+    }
+}

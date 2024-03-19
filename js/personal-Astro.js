@@ -1,7 +1,7 @@
 
 const Personas_Administracion_Gestion = [
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Amelia Ramirez",
         correo: "aramirez@userena.cl",
         cargo_general: "Directora de Departamento",
@@ -9,7 +9,7 @@ const Personas_Administracion_Gestion = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Julia Arias",
         correo: "",
         cargo_general: "Secretario(a) Académico(a):",
@@ -17,7 +17,7 @@ const Personas_Administracion_Gestion = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Héctor Cuevas",
         correo: "",
         cargo_general: "Vicerrector de Investigación y Postgrado",
@@ -25,7 +25,7 @@ const Personas_Administracion_Gestion = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Maritza Tapia",
         correo: "",
         cargo_general: "Secretario(a) Ejecutivo(a):",
@@ -36,7 +36,7 @@ const Personas_Administracion_Gestion = [
 
 const Academicos_Departamento = [
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Amelia Ramírez",
         correo: "",
         cargo_general: "",
@@ -44,7 +44,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Alexandre Román-Lopes",
         correo: "",
         cargo_general: "",
@@ -52,7 +52,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Julia Arias",
         correo: "",
         cargo_general: "",
@@ -60,7 +60,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Antonela Monachesi",
         correo: "",
         cargo_general: "",
@@ -68,7 +68,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Facundo Gómez",
         correo: "",
         cargo_general: "",
@@ -76,7 +76,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Douglas Geisler",
         correo: "",
         cargo_general: "",
@@ -84,7 +84,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Valeria Mesa",
         correo: "",
         cargo_general: "",
@@ -92,7 +92,7 @@ const Academicos_Departamento = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Erich Wenderoth",
         correo: "",
         cargo_general: "",
@@ -103,7 +103,7 @@ const Academicos_Departamento = [
 
 const Academicos_MultidisciplinarioIyP = [
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Marcelo Jaque",
         correo: "",
         cargo_general: "",
@@ -111,7 +111,7 @@ const Academicos_MultidisciplinarioIyP = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "José Luis Nilo",
         correo: "",
         cargo_general: "",
@@ -119,7 +119,7 @@ const Academicos_MultidisciplinarioIyP = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Denise Riquelme",
         correo: "",
         cargo_general: "",
@@ -127,7 +127,7 @@ const Academicos_MultidisciplinarioIyP = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Nicolás Garavito",
         correo: "",
         cargo_general: "",
@@ -138,7 +138,7 @@ const Academicos_MultidisciplinarioIyP = [
 
 const Astronomos_visitantes = [
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Rodrigo Carrasco",
         correo: "",
         cargo_general: "",
@@ -149,7 +149,7 @@ const Astronomos_visitantes = [
 
 const Postdoc = [
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Ciria",
         correo: "",
         cargo_general: "",
@@ -157,7 +157,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Ariadna",
         correo: "",
         cargo_general: "",
@@ -165,7 +165,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Cesar Muñoz",
         correo: "",
         cargo_general: "",
@@ -173,7 +173,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Hugo",
         correo: "",
         cargo_general: "",
@@ -181,7 +181,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Raquel",
         correo: "",
         cargo_general: "",
@@ -189,7 +189,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Felipe",
         correo: "",
         cargo_general: "",
@@ -197,7 +197,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Daniel Ortíz",
         correo: "",
         cargo_general: "",
@@ -205,7 +205,7 @@ const Postdoc = [
         id: ""
     },
     {
-        img: "/images/personas/perfil-temporal.jpg",
+        img: "images/personas/perfil-temporal.jpg",
         nombre: "Ricardo Moyano",
         correo: "",
         cargo_general: "",
